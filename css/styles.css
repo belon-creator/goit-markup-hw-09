@@ -151,6 +151,11 @@ html {
   background-position: center;
   padding-top: 200px;
 }
+@media screen and (min-resolution: 2dppx) {
+  .banner {
+    background-image: url(../images/slide4-2x.png);
+  }
+}
 
 .banner-span {
   font-weight: 700;
